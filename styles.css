@@ -177,7 +177,7 @@ body {
     color: var(--cinza-secundario);
 }
 
-/*--------- responsividade -----------*/
+/*--------- responsividade mobile -----------*/
 
 @media screen and (max-width: 768px) {
     .container {
