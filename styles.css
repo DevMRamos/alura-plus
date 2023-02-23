@@ -183,7 +183,11 @@ body {
     .container {
         display: block;
         background-image: none;
-        margin: 0;
+        margin-top: 0;
+    }
+
+    .principal {
+        margin-top: 6em;
     }
 
     .container__imagem {
@@ -201,6 +205,11 @@ body {
         font-size: 20px;
     }
 
+    .descricao__texto {
+        text-align: justify;
+        line-height: 1.5em;
+    }
+
     .secundaria__imagem {
         width: 50vw;
     }
@@ -211,7 +220,7 @@ body {
 
     .dispositivos__lista {
         margin: 1em;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .dispositivos__lista li img {
